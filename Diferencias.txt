@@ -1,0 +1,20 @@
+Diferencia entre Lenguajes de programación imperativos y Lenguajes de programación declarativos
+
+La programacion declarativa indica que problema se desea solucionar, pero no que pasos
+seguir para hacerlo, por otro lado la programacion imperativa da las intrucciones 
+necesarias que debemos seguir para dar solucion al problema.
+
+Ejemplo de programación imperativa
+
+se debe proporcionar una lista con nombres:
+
+Programación imperativa (PHP):
+
+$listaParticipantes = [1 => 'Peter', 2 => 'Hans', 3 => 'Sarah'];
+$nombres = [];
+foreach ($listaParticipantes as $id => $name) {
+    $nombres[] = $name;
+}
+
+Programación declarativa (PHP)
+$nombres = array_values($listaParticipantes);
